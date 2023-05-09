@@ -1,0 +1,18 @@
+{
+  "name": "fast2mythforwarder",
+  "version": "0.1.0",
+  "description": "A project to forward characters from Fast Character Generator into Myth Weavers",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "node_modules/.bin/tsc.cmd"
+  },
+  "author": "Ryan Juda",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.1"
+  }
+}
